@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Difference between Get and Post Method</title>
+</head>
+<body bgcolor="FFFFE0">
+    <center>
+        <table border="1px" width="400" height="auto">
+            <tr>
+                <th align="center" colspan="3">Difference between Get and Post Method</th>
+            </tr>
+            <tr>
+                <th>S.No</th>
+                <th>Get Method</th>
+                <th>Post Method</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>In case of Get request, only limited amount of data can be sent because data is sent in header.</td>
+                <td>In case of post request, large amount of data can be sent because data is sent in body.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> Get request is not secured because data is exposed in URL bar.</td>
+                <td>Post request is secured because data is not exposed in URL bar.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Get request can be bookmarked.</td>
+                <td>Post request cannot be bookmarked.</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td> Get request is idempotent . It means second request will be ignored until response of first request is delivered</td>
+                <td> Post request is non-idempotent.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Get request is more efficient and used more than Post.</td>
+                <td>Post request is less efficient and used less than get.</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
